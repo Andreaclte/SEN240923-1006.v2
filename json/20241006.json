@@ -1,0 +1,45 @@
+{
+    "zones_with_problems": [null], 
+    "date": "20241006",
+    "url": "http://www.cubadebate.cu/noticias/2024/10/06/une-preven-afectacion-de-1-115-megawatts-durante-el-horario-pico-nocturno-de-este-domingo/", 
+    "prediction": {
+        "availability": 2155,  
+        "demand_max": 3200,
+        "impact": 1115,
+        "deficit": 1045,
+        "backup": 0
+    },
+    "morning_info": {
+        "time": "0700", 
+        "availability": 1780, 
+        "demand": 2500, 
+        "deficit": 750
+    }, 
+    "plants": [
+        {
+            "broken": {
+                "MG": ["5", "8"],
+                "LR": ["2"],
+                "EG": ["1"],
+                "DO": ["5"]
+            },
+            "maintenance": {
+                "EG": ["2"],
+                "AM": ["5"]
+            },
+            "limitation": 416
+    }
+],
+    "distributed": {
+        "motors_with_problems": 45,
+        "total_impact": 485,
+        "combustible_problem": true,
+        "ships_with_problems": 3,
+        "motors_impact": 252
+    },
+    "impact": {
+        "total_hours": 24,
+        "max": 1487,
+        "max_hour": null
+    }
+}

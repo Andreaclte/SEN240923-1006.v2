@@ -1,0 +1,46 @@
+{
+    "zones_with_problems": [null], 
+    "date": "20241004",
+    "url": "http://www.cubadebate.cu/noticias/2024/10/04/la-union-electrica-pronostica-una-afectacion-de-1086-mw-para-el-horario-pico-de-este-viernes/", 
+    "prediction": {
+        "availability": 2224,  
+        "demand_max": 3240,
+        "impact": 1086,
+        "deficit": 1016,
+        "backup": 0
+    },
+    "morning_info": {
+        "time": "0700", 
+        "availability": 1980, 
+        "demand": 2545, 
+        "deficit": 583
+    }, 
+    "plants": [
+        {
+            "broken": {
+                "MG": ["5"],
+                "LR": ["2"],
+                "AM": ["6"],
+                "EG": ["3"],
+                "DO": ["5"]
+            },
+            "maintenance": {
+                "EG": ["2"],
+                "AM": ["5"]
+            },
+            "limitation": 368
+    }
+],
+    "distributed": {
+        "motors_with_problems": 39,
+        "total_impact": 401,
+        "combustible_problem": true,
+        "ships_with_problems": 3,
+        "motors_impact": 159
+    },
+    "impact": {
+        "total_hours": 24,
+        "max": 1580,
+        "max_hour": null
+    }
+}

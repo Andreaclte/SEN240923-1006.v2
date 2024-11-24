@@ -1,0 +1,46 @@
+{
+    "zones_with_problems": [null], 
+    "date": "20241003",
+    "url": "http://www.cubadebate.cu/noticias/2024/10/03/union-electrica-pronostica-deficit-de-1264-mw-para-el-horario-pico-nocturno/", 
+    "prediction": {
+        "availability": 2146,  
+        "demand_max": 3340,
+        "impact": 1264,
+        "deficit": 1194,
+        "backup": 0
+    },
+    "morning_info": {
+        "time": "0700", 
+        "availability": 2016, 
+        "demand": 2440, 
+        "deficit": 457
+    }, 
+    "plants": [
+        {
+            "broken": {
+                "LR": ["2"],
+                "AM": ["6"],
+                "MG": ["5"],
+                "EG": ["3"]
+            },
+            "maintenance": {
+                "EG": ["2"],
+                "AM": ["5"],
+                "CM": ["3"]
+            },
+            "limitation": 368
+    }
+],
+    "distributed": {
+        "motors_with_problems": 41,
+        "total_impact": 307,
+        "combustible_problem": true,
+        "ships_with_problems": 2,
+        "motors_impact": 143
+    },
+    "impact": {
+        "total_hours": 24,
+        "max": 1249,
+        "max_hour": null
+    }
+}

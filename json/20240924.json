@@ -1,0 +1,43 @@
+{
+    "zones_with_problems": [null], 
+    "date": "20240924",
+    "url": "http://www.cubadebate.cu/noticias/2024/09/24/une-pronostica-un-deficit-de-925-mw-para-el-horario-pico-de-este-martes/", 
+    "prediction": {
+        "availability": 2275,  
+        "demand_max": 3200,
+        "impact": 995,
+        "deficit": 925,
+        "backup": 0
+    },
+    "morning_info": {
+        "time": "0700", 
+        "availability": 2100, 
+        "demand": 2550, 
+        "deficit": 450 
+    }, 
+    "plants": [
+        {
+            "broken": {
+                "DO": ["6"],
+                "LR": ["2"],
+                "AM": ["5"]
+            },
+            "maintenance": {
+                "EG": ["2"]
+            },
+            "limitation": 498 
+    }
+],
+    "distributed": {
+        "motors_with_problems": 43,
+        "total_impact": 281,
+        "combustible_problem":true,
+        "ships_with_problems": 1,
+        "motors_impact": null
+    },
+    "impact": {
+        "total_hours": 24,
+        "max": 1081,
+        "max_hour": null
+    }
+}

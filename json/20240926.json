@@ -1,0 +1,42 @@
+{
+    "zones_with_problems": ["west", "middle"], 
+    "date": "20240926",
+    "url": "http://www.cubadebate.cu/noticias/2024/09/26/preven-afectacion-de-835-mw-durante-el-horario-pico-nocturno-de-este-jueves/", 
+    "prediction": {
+        "availability": 2185,  
+        "demand_max": 2950,
+        "impact": 835,
+        "deficit": 765,
+        "backup": 0
+    },
+    "morning_info": {
+        "time": "0700", 
+        "availability": 1950, 
+        "demand": 2040, 
+        "deficit": 125
+    }, 
+    "plants": [
+        {
+            "broken": {
+                "LR": ["2"],
+                "AM": ["5"]
+            },
+            "maintenance": {
+                "EG": ["2"]
+            },
+            "limitation": 537 
+    }
+],
+    "distributed": {
+        "motors_with_problems": 40,
+        "total_impact": 522,
+        "combustible_problem":true,
+        "ships_with_problems": 4,
+        "motors_impact": 309
+    },
+    "impact": {
+        "total_hours": 24,
+        "max": 1022,
+        "max_hour": "0200"
+    }
+}
